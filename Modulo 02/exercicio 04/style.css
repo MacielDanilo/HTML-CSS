@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to left, rgb(49, 113, 231), rgba(33, 230, 7, 0.938));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    color: blue;
+    text-align:left;
+}
+#principal{
+    text-align: center;
+    color: black;
+    box-shadow: 10px 10px 15px green;
+}
+.css{
+    color: rgb(218, 144, 8);
+}
+h2{
+    color: rgb(38, 82, 228);
+    text-align: left;
+}

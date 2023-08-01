@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(0, 217, 255);
+}
+nav{
+    background-color: gray;
+    padding: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.705);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.tipo {
+
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline green;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+header > h1{
+    text-align: center;
+    background-color: gray;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.568);
+    text-shadow: 1px 1px 1px green;
+    border-radius: 5px;
+    margin: 5px 280px 20px 280px
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+article{
+    background-color: lightgray;
+}
+article > aside {
+    background-color: gray;
+    
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    
+}
+footer > p{
+    padding: 1px;
+    margin: 0px;
+}
