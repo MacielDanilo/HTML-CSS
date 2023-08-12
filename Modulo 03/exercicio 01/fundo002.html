@@ -5,16 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personalizando Fundos</title>
     <style>
-        body {
-           
+        div.bloco {
             background-image: url('imagens/wallpaper003.jpg');
-            background-position: 100px 100px;
-            background-repeat: no-repeat;
-        
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 10px;
+            
+        }
+        .bloco#q1{
+            background-position: left top;
+        }
+        .bloco#q2{
+            background-position: left center;
+        }
+        .bloco#q3{
+            background-position: right bottom;
+        }
+        .bloco#q4{
+            background-position: center center;
         }
     </style>
 </head>
 <body>
-    <h1>Teste de aplicação de fundo</h1>
+    <div class="bloco" id="q1">
+
+    </div>
+    <div class="bloco" id="q2">
+
+    </div>
+    <div class="bloco" id="q3">
+
+    </div>
+    <div class="bloco" id="q4">
+
+    </div>
 </body>
 </html>
