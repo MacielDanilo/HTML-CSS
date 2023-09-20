@@ -5,10 +5,12 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    
     
 }
 
@@ -41,6 +43,20 @@ header > p {
 .imagem {
     background-color: rgba(29, 28, 28, 0.116);
     color: white;
+    box-shadow: inset 6px black;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#img1 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
 }
 
 section {
@@ -53,9 +69,14 @@ section {
     
 }
 
+section > p {
+    padding-bottom: 2em;
+}
 .imagem > p {
-    background-color: rgba(0, 0, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.512);
     width: 400px;
+    text-shadow: black 2px 2px;
+    
 }
 a {
     text-decoration: none;
