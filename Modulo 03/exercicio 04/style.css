@@ -15,6 +15,14 @@ table {
     width: 600px;
     border-collapse: collapse;
     background-image: url('https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg');
+    
+}
+caption {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 thead {
     background-color: grey;
